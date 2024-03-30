@@ -4051,6 +4051,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -89.9999
       objectReference: {fileID: 0}
+    - target: {fileID: 6452128, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11444398, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
       propertyPath: character
       value: 
@@ -13627,6 +13631,12 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 408091371}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1564758572 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9575016, guid: ac7a01ca06ca9044eb15b32cb7a936f8,
+    type: 3}
+  m_PrefabInstance: {fileID: 408091371}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1564758575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13639,7 +13649,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a42e67bff0e7b240ac0d37fc5c38864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  doorAnimator: {fileID: 0}
+  doorAnimator: {fileID: 1564758572}
 --- !u!1001 &1571020775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16603,6 +16613,37 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!1 &1708629486
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1708629487}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1708629487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708629486}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.74, y: 2.13, z: 0.18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1709557274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21904,3 +21945,4 @@ SceneRoots:
   - {fileID: 412469382}
   - {fileID: 151747114}
   - {fileID: 1525332280}
+  - {fileID: 1708629487}
