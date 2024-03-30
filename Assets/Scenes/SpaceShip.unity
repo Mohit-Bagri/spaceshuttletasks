@@ -7054,7 +7054,7 @@ MonoBehaviour:
     type: 3}
   explosionRadius: 1
   explosionForce: 1000
-  timeToExplode: 7
+  timeToExplode: 5
 --- !u!4 &750189308 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3127377416852887305, guid: e367714f162349d48a5cb6f00133e149,
