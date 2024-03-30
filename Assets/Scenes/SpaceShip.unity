@@ -4052,6 +4052,10 @@ PrefabInstance:
       value: -89.9999
       objectReference: {fileID: 0}
     - target: {fileID: 6452128, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6452128, guid: ac7a01ca06ca9044eb15b32cb7a936f8, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
