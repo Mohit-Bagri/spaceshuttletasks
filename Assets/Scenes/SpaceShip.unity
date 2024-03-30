@@ -4687,7 +4687,7 @@ PrefabInstance:
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.468
+      value: -0.635
       objectReference: {fileID: 0}
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
@@ -4697,7 +4697,7 @@ PrefabInstance:
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7356315
       objectReference: {fileID: 0}
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
@@ -4712,7 +4712,7 @@ PrefabInstance:
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000058114523
+      value: -0.677382
       objectReference: {fileID: 0}
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
@@ -4727,7 +4727,7 @@ PrefabInstance:
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -85.279
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10615,7 +10615,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 1
+  m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: e022ff0c9dac29d48a070accea073e45, type: 3}
 --- !u!65 &1324666791 stripped
