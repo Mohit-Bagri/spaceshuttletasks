@@ -7,7 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class Grenade : MonoBehaviour
 {
     public GameObject explosionPrefab; // The explosion prefab
-    public float explosionRadius = 5f; // Radius of the explosion
+    public float explosionRadius = 1f; // Radius of the explosion
     public float explosionForce = 1000f; // Force of the explosion
     public float timeToExplode = 7f; // Time in seconds before the grenade explodes
 

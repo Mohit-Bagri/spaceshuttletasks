@@ -4683,7 +4683,7 @@ PrefabInstance:
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.5999718
+      value: -0.636
       objectReference: {fileID: 0}
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
@@ -4693,7 +4693,7 @@ PrefabInstance:
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071083
       objectReference: {fileID: 0}
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
@@ -4708,7 +4708,7 @@ PrefabInstance:
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.70710534
       objectReference: {fileID: 0}
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
@@ -4723,7 +4723,7 @@ PrefabInstance:
     - target: {fileID: 6597763391169047887, guid: f57a0ecc4dc390949b387c2f231d0a87,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7048,7 +7048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 2827616591531773376, guid: b61810199038b574189dd9958c28b4c9,
     type: 3}
-  explosionRadius: 5
+  explosionRadius: 1
   explosionForce: 1000
   timeToExplode: 7
 --- !u!4 &750189308 stripped
@@ -12642,6 +12642,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a42e67bff0e7b240ac0d37fc5c38864, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorAnimator: {fileID: 0}
 --- !u!1001 &1571020775
 PrefabInstance:
   m_ObjectHideFlags: 0
