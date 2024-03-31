@@ -1327,6 +1327,10 @@ MonoBehaviour:
   - {fileID: 1869858490}
   - {fileID: 1324666791}
   - {fileID: 82593246}
+  - {fileID: 1678906469}
+  - {fileID: 1678906468}
+  - {fileID: 1678906467}
+  - {fileID: 1678906466}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -14804,6 +14808,30 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1678906466 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6570690, guid: d2eb17f175564e84c8ad78ac03232e29,
+    type: 3}
+  m_PrefabInstance: {fileID: 1678906463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1678906467 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6538828, guid: d2eb17f175564e84c8ad78ac03232e29,
+    type: 3}
+  m_PrefabInstance: {fileID: 1678906463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1678906468 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6537940, guid: d2eb17f175564e84c8ad78ac03232e29,
+    type: 3}
+  m_PrefabInstance: {fileID: 1678906463}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1678906469 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 6598168, guid: d2eb17f175564e84c8ad78ac03232e29,
+    type: 3}
+  m_PrefabInstance: {fileID: 1678906463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1687797619
 PrefabInstance:
   m_ObjectHideFlags: 0
