@@ -7319,7 +7319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f19c7f94c794c5097d8bd11e39c750d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpinSpeed: 5
+  SpinSpeed: 50
   RotationRange: 15
   Motion: 0
 --- !u!95 &871140818
