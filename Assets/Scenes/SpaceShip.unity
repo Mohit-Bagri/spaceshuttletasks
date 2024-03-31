@@ -11330,7 +11330,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1912130382}
     m_Modifications:
     - target: {fileID: 125588, guid: ea798cfb4939d4441b95d1bd39d0767f, type: 3}
       propertyPath: m_Name
@@ -11338,15 +11338,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 451040, guid: ea798cfb4939d4441b95d1bd39d0767f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.9
+      value: 5.960321
       objectReference: {fileID: 0}
     - target: {fileID: 451040, guid: ea798cfb4939d4441b95d1bd39d0767f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.067
+      value: -1.8099717
       objectReference: {fileID: 0}
     - target: {fileID: 451040, guid: ea798cfb4939d4441b95d1bd39d0767f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.01
+      value: 0.28627303
       objectReference: {fileID: 0}
     - target: {fileID: 451040, guid: ea798cfb4939d4441b95d1bd39d0767f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11418,6 +11418,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorAnimator: {fileID: 1440515114}
+--- !u!4 &1440515116 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 451040, guid: ea798cfb4939d4441b95d1bd39d0767f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1440515112}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1441775029 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1492457292308410174, guid: dc40d4936f6d7f44a88297e1d42d288a,
@@ -16263,6 +16269,7 @@ Transform:
   - {fileID: 1493672918}
   - {fileID: 1346328567}
   - {fileID: 748284527}
+  - {fileID: 1440515116}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1919934517
@@ -19715,4 +19722,3 @@ SceneRoots:
   - {fileID: 412469382}
   - {fileID: 151747114}
   - {fileID: 1525332280}
-  - {fileID: 1440515112}
