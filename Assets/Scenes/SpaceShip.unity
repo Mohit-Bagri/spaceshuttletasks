@@ -937,6 +937,10 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 116758, guid: 10b4213a276bd0f4d93c345fd1420858,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 614341638}
     - targetCorrespondingSourceObject: {fileID: 173154, guid: 10b4213a276bd0f4d93c345fd1420858,
         type: 3}
       insertIndex: -1
@@ -977,6 +981,12 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!108 &108299447 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 10877412, guid: 10b4213a276bd0f4d93c345fd1420858,
+    type: 3}
+  m_PrefabInstance: {fileID: 108299442}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &115873983 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 135284, guid: a5cd29a93d7ae2d488fa0376d0d08462,
@@ -1976,6 +1986,12 @@ MonoBehaviour:
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
   targetTag: Energy
+--- !u!1 &258824697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 116758, guid: 10b4213a276bd0f4d93c345fd1420858,
+    type: 3}
+  m_PrefabInstance: {fileID: 1475972863}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &260057249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5662,6 +5678,27 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 590146715}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &614341634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 116758, guid: 10b4213a276bd0f4d93c345fd1420858,
+    type: 3}
+  m_PrefabInstance: {fileID: 108299442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &614341638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 614341634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6fb15c67185c2b438c6bbc17bd9e560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointLight: {fileID: 108299447}
+  minFlickerDelay: 0.05
+  maxFlickerDelay: 0.2
 --- !u!1001 &638648532
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9775,7 +9812,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -12142,6 +12179,10 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 116758, guid: 10b4213a276bd0f4d93c345fd1420858,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1475972872}
     - targetCorrespondingSourceObject: {fileID: 173154, guid: 10b4213a276bd0f4d93c345fd1420858,
         type: 3}
       insertIndex: -1
@@ -12182,6 +12223,27 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!108 &1475972868 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 10877412, guid: 10b4213a276bd0f4d93c345fd1420858,
+    type: 3}
+  m_PrefabInstance: {fileID: 1475972863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1475972872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258824697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6fb15c67185c2b438c6bbc17bd9e560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointLight: {fileID: 1475972868}
+  minFlickerDelay: 0.05
+  maxFlickerDelay: 0.2
 --- !u!1 &1484775652
 GameObject:
   m_ObjectHideFlags: 0
