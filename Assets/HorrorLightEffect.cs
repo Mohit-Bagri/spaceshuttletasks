@@ -3,46 +3,33 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
+
 public class HorrorLightEffect : MonoBehaviour
 {
     public Light pointLight;
-    public float minIntensity = 0.2f;
-    public float maxIntensity = 1.0f;
-    public float minBlinkSpeed = 0.5f;
-    public float maxBlinkSpeed = 2.0f;
-
-    private float targetIntensity;
-    private float currentIntensity;
-    private float blinkSpeed;
+    public float minFlickerDelay = 0.05f;
+    public float maxFlickerDelay = 0.2f;
 
     void Start()
     {
-        // Initialize starting intensity and blink speed
-        currentIntensity = pointLight.intensity;
-        targetIntensity = Random.Range(minIntensity, maxIntensity);
-        blinkSpeed = Random.Range(minBlinkSpeed, maxBlinkSpeed);
-
-        // Start the blinking coroutine
-        StartCoroutine(Blink());
+        StartCoroutine(Flicker());
     }
 
-    IEnumerator Blink()
+    IEnumerator Flicker()
     {
         while (true)
         {
-            // Smoothly transition between current intensity and target intensity
-            currentIntensity = Mathf.Lerp(currentIntensity, targetIntensity, Time.deltaTime * blinkSpeed);
-            pointLight.intensity = currentIntensity;
+            // Turn the light off
+            pointLight.enabled = false;
 
-            // If the current intensity is very close to the target intensity, set a new random target intensity and blink speed
-            if (Mathf.Abs(currentIntensity - targetIntensity) < 0.1f)
-            {
-                targetIntensity = Random.Range(minIntensity, maxIntensity);
-                blinkSpeed = Random.Range(minBlinkSpeed, maxBlinkSpeed);
-            }
+            // Wait for a random short duration
+            yield return new WaitForSeconds(Random.Range(minFlickerDelay, maxFlickerDelay));
 
-            // Wait for a short duration before updating intensity again
-            yield return null;
+            // Turn the light on
+            pointLight.enabled = true;
+
+            // Wait for another random short duration
+            yield return new WaitForSeconds(Random.Range(minFlickerDelay, maxFlickerDelay));
         }
     }
 }
