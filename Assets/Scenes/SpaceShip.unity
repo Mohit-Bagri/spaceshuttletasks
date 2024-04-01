@@ -12134,7 +12134,7 @@ MonoBehaviour:
   pointLight: {fileID: 479213681}
   minIntensity: 0.2
   maxIntensity: 1
-  minBlinkSpeed: 0.5
+  minBlinkSpeed: 0.1
   maxBlinkSpeed: 2
 --- !u!4 &1493672918 stripped
 Transform:
@@ -14810,7 +14810,7 @@ MonoBehaviour:
   pointLight: {fileID: 1073751043}
   minIntensity: 0.2
   maxIntensity: 1
-  minBlinkSpeed: 0.5
+  minBlinkSpeed: 0.1
   maxBlinkSpeed: 2
 --- !u!1001 &1678906463
 PrefabInstance:
@@ -15222,7 +15222,7 @@ MonoBehaviour:
   pointLight: {fileID: 518770152}
   minIntensity: 0.2
   maxIntensity: 1
-  minBlinkSpeed: 0.5
+  minBlinkSpeed: 0.1
   maxBlinkSpeed: 2
 --- !u!1001 &1702057836
 PrefabInstance:
@@ -16841,7 +16841,7 @@ MonoBehaviour:
   pointLight: {fileID: 1947554439}
   minIntensity: 0.2
   maxIntensity: 1
-  minBlinkSpeed: 0.5
+  minBlinkSpeed: 0.1
   maxBlinkSpeed: 2
 --- !u!1 &1950352908
 GameObject:
