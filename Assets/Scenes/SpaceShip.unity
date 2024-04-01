@@ -7156,9 +7156,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointLight: {fileID: 843954557}
   minIntensity: 0.2
-  maxIntensity: 1
+  maxIntensity: 2
   minBlinkSpeed: 0.1
-  maxBlinkSpeed: 2
+  maxBlinkSpeed: 1
 --- !u!1001 &856937073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7319,9 +7319,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointLight: {fileID: 856937080}
   minIntensity: 0.2
-  maxIntensity: 1
+  maxIntensity: 2
   minBlinkSpeed: 0.1
-  maxBlinkSpeed: 2
+  maxBlinkSpeed: 1
 --- !u!1001 &871140814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16472,6 +16472,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1875833002}
+    - targetCorrespondingSourceObject: {fileID: 107030, guid: 7bfca64f0cf4ef248b199077f3f98357,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1875833006}
     - targetCorrespondingSourceObject: {fileID: 155536, guid: 7bfca64f0cf4ef248b199077f3f98357,
         type: 3}
       insertIndex: -1
@@ -16512,6 +16516,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1875832993}
   m_PrefabAsset: {fileID: 0}
+--- !u!108 &1875832998 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 10854128, guid: 7bfca64f0cf4ef248b199077f3f98357,
+    type: 3}
+  m_PrefabInstance: {fileID: 1875832993}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1875833002
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16534,6 +16544,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 7f4bb4ae1f8094c47abdd09a12d0a39c, type: 3}
+--- !u!114 &1875833006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209065401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6fb15c67185c2b438c6bbc17bd9e560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointLight: {fileID: 1875832998}
+  minIntensity: 0.2
+  maxIntensity: 2
+  minBlinkSpeed: 0.1
+  maxBlinkSpeed: 1
 --- !u!1001 &1890241553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19967,6 +19994,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2145281606}
+    - targetCorrespondingSourceObject: {fileID: 107030, guid: 7bfca64f0cf4ef248b199077f3f98357,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2145281610}
     - targetCorrespondingSourceObject: {fileID: 155536, guid: 7bfca64f0cf4ef248b199077f3f98357,
         type: 3}
       insertIndex: -1
@@ -20007,6 +20038,12 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!108 &2145281602 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 10854128, guid: 7bfca64f0cf4ef248b199077f3f98357,
+    type: 3}
+  m_PrefabInstance: {fileID: 2145281597}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &2145281606
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20029,6 +20066,23 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 7f4bb4ae1f8094c47abdd09a12d0a39c, type: 3}
+--- !u!114 &2145281610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181049619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6fb15c67185c2b438c6bbc17bd9e560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointLight: {fileID: 2145281602}
+  minIntensity: 0.2
+  maxIntensity: 2
+  minBlinkSpeed: 0.1
+  maxBlinkSpeed: 1
 --- !u!1001 &2073616073005219258
 PrefabInstance:
   m_ObjectHideFlags: 0
