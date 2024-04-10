@@ -1,37 +1,41 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class Grenade : MonoBehaviour
 {
     public GameObject explosionPrefab; // The explosion prefab
     public float explosionRadius = 1f; // Radius of the explosion
     public float explosionForce = 1000f; // Force of the explosion
-    public float timeToExplode = 3f; // Time in seconds before the grenade explodes after being thrown
+    public float timeToExplode = 7f; // Time in seconds before the grenade explodes
 
     private bool exploded = false; // To ensure explosion happens only once
-    private float timeSinceActivation = 0f; // Time since the grenade was activated (thrown or held)
-    private Rigidbody rb; // Rigidbody component of the grenade
+    private float timeHeld = 0f; // Time the grenade has been held
+    private XRGrabInteractable xrGrabInteractable; // Reference to the XR Grab Interactable component
 
     private void Start()
     {
-        rb = GetComponent<Rigidbody>();
-        if (rb == null)
+        // Get reference to XR Grab Interactable component
+        xrGrabInteractable = GetComponent<XRGrabInteractable>();
+        if (xrGrabInteractable == null)
         {
-            Debug.LogError("Rigidbody component is missing from the grenade prefab.");
+            Debug.LogError("XR Grab Interactable component is missing from the grenade prefab.");
         }
     }
 
     private void Update()
     {
-        // If the grenade is activated (thrown or held) and has not exploded yet
-        if (timeSinceActivation > 0 && !exploded)
+        // Check if the grenade is being held
+        if (xrGrabInteractable.isSelected)
         {
-            timeSinceActivation += Time.deltaTime;
-            // If the time since activation exceeds timeToExplode, explode
-            if (timeSinceActivation >= timeToExplode)
+            // Increment the timeHeld when the grenade is being held
+            timeHeld += Time.deltaTime;
+
+            // Check if the timeHeld has reached the threshold for explosion
+            if (timeHeld >= timeToExplode && !exploded)
             {
-                Explode();
+                Explode(); // Call the explode function when the grenade has been held for the specified time
             }
         }
     }
@@ -56,16 +60,14 @@ public class Grenade : MonoBehaviour
             }
         }
 
+        // Disable grenade's renderer and collider to make it disappear
+        GetComponent<MeshRenderer>().enabled = false;
+        GetComponent<MeshCollider>().enabled = false; // Disable Mesh Collider
+
         // Destroy the explosion prefab after a short delay to allow explosion effect to be visible
         Destroy(explosion, 1f);
 
         // Destroy the grenade
         Destroy(gameObject);
-    }
-
-    // Function to handle grenade activation (called when the grenade is thrown or held)
-    public void ActivateGrenade()
-    {
-        timeSinceActivation = 0f;
     }
 }

@@ -6669,7 +6669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosionPrefab: {fileID: 982844053}
-  explosionRadius: 1
+  explosionRadius: 5
   explosionForce: 1000
   timeToExplode: 5
 --- !u!4 &750189308 stripped
@@ -8199,17 +8199,17 @@ PrefabInstance:
     - target: {fileID: 1855589524653408018, guid: b61810199038b574189dd9958c28b4c9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.77
+      value: -0.46
       objectReference: {fileID: 0}
     - target: {fileID: 1855589524653408018, guid: b61810199038b574189dd9958c28b4c9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.14
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 1855589524653408018, guid: b61810199038b574189dd9958c28b4c9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.346
+      value: 0.607
       objectReference: {fileID: 0}
     - target: {fileID: 1855589524653408018, guid: b61810199038b574189dd9958c28b4c9,
         type: 3}
@@ -8246,20 +8246,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1860757858335158179, guid: b61810199038b574189dd9958c28b4c9,
-        type: 3}
-      propertyPath: playOnAwake
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2827616591531773376, guid: b61810199038b574189dd9958c28b4c9,
         type: 3}
       propertyPath: m_Name
       value: Explosion
-      objectReference: {fileID: 0}
-    - target: {fileID: 5869032187137178465, guid: b61810199038b574189dd9958c28b4c9,
-        type: 3}
-      propertyPath: playOnAwake
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
