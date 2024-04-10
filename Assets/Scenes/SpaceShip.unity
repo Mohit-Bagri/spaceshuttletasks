@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.014885624, g: 0.012804226, b: 0.014367641, a: 1}
+  m_IndirectSpecularColor: {r: 0.014885622, g: 0.012804226, b: 0.014367641, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4244,6 +4244,10 @@ PrefabInstance:
       value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 142944, guid: 9c0a6df65fcfba243abb2cf9260b869f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 142944, guid: 9c0a6df65fcfba243abb2cf9260b869f, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
@@ -8195,17 +8199,17 @@ PrefabInstance:
     - target: {fileID: 1855589524653408018, guid: b61810199038b574189dd9958c28b4c9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.22831
+      value: -0.77
       objectReference: {fileID: 0}
     - target: {fileID: 1855589524653408018, guid: b61810199038b574189dd9958c28b4c9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6711764
+      value: -1.14
       objectReference: {fileID: 0}
     - target: {fileID: 1855589524653408018, guid: b61810199038b574189dd9958c28b4c9,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.57
+      value: 0.346
       objectReference: {fileID: 0}
     - target: {fileID: 1855589524653408018, guid: b61810199038b574189dd9958c28b4c9,
         type: 3}
@@ -8242,10 +8246,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1860757858335158179, guid: b61810199038b574189dd9958c28b4c9,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2827616591531773376, guid: b61810199038b574189dd9958c28b4c9,
         type: 3}
       propertyPath: m_Name
       value: Explosion
+      objectReference: {fileID: 0}
+    - target: {fileID: 3108524633243653254, guid: b61810199038b574189dd9958c28b4c9,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869032187137178465, guid: b61810199038b574189dd9958c28b4c9,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
